@@ -18,6 +18,7 @@ public class App
 	System.out.println(parent);
 	Addres addres = container.getBean(Addres.class);
 	System.out.println(addres);
+	System.out.println();
 	//container.close();
 	((AbstractApplicationContext) container).close();
 	((AbstractApplicationContext) container).refresh();
