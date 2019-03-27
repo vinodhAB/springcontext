@@ -6,6 +6,13 @@ public class Addres {
 	public Addres() {
 		System.out.println("Addres object is created");
 	}
+	
+	public Addres(int pid, String name) {
+		super();
+		this.pid = pid;
+		this.name = name;
+	}
+
 	@Override
 	public String toString() {
 		return "Addres [pid=" + pid + ", name=" + name + "]";
