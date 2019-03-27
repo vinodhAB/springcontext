@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+	default-lazy-init="true">
+
+
+	<bean id="2019cm" class="info.inetslov.springcontext.Parent" lazy-init="true">
+	<property name="pid" value="456"></property>
+	<property name="name" value="vishnu"></property>
+	</bean>
+	<bean id="2019pm" class="info.inetslov.springcontext.Addres">
+		<property name="pid" value="567"></property>
+		<property name="name" value="vinodh"></property>
+	</bean>
+	
+	
+</beans>
